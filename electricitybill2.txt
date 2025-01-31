@@ -1,0 +1,38 @@
+import java. util.*;
+public class electricitybill2
+{
+public static void main(string[]args)
+int units,charges,amount;
+scanner scanner=new scanner(system.in);
+system.out.println("enter meter number:");
+int meterno= scanner.nextint();
+system.out.println("enter previous reading");
+int previous=scanner.nextint();
+system.out.println("enter present reading")
+int present=scanner.next int();
+if(previous<present)
+{
+units=present-previous;
+system.out.println("units is:"+);
+if(units>0&&units<=100)
+{
+charge=2;
+}
+elseif(units>101&&units<=200)
+{
+charge=4;
+}
+else
+{
+charge=5;
+}
+system.out.println("charge is:"+charge);
+amount=units*charge;
+system.out.println("amount is:"+amount);
+}
+else
+{
+system.out.println("please enter valid reading");
+}
+}
+}
